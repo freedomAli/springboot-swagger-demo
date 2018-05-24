@@ -10,7 +10,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- *  http://localhost:8080/swagger-ui.html
+ * http://localhost:8080/swagger-ui.html
  * Created by zhanyanjun on 2018/5/4.
  */
 @Configuration
@@ -41,6 +41,7 @@ public class Swagger2 {
     /**
      * 创建该API的基本信
      * 访问地址：http://项目实际地址/swagger-ui.html
+     *
      * @return
      */
     private ApiInfo apiInfo() {
